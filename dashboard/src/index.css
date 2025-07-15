@@ -1,0 +1,83 @@
+@import 'tailwindcss';
+
+@theme {
+	--color-hmoBlue: #1e80c1;
+	--color-hmoLightBlue: #a5def2;
+	--color-hmoPurple: #414c6b;
+	--color-hmoLightPurple: #c0a9bc;
+	--color-hmoGreen: #5baeb7;
+	--color-hmoLightGreen: #2ecbe9;
+
+	
+		/* fontsize: {
+			'course-details-heading-small':['26px','36px'],
+      'course-details-heading-large': [
+					'36px',
+				'44px'],
+        'home-heading-small':['28px','34px'],
+        'home-heading-large':['48px','56px'],
+        'default': ['15px', '21px'],
+		},
+		gridTemplateColumns:{
+			"auto":"reapat(auto-fit, minmax(200px, 1fr))"
+		} */
+	
+}
+
+body {
+	background: #f1f5f9;
+}
+.react-calendar {
+	width: 100% !important;
+	border: none;
+	font-family: 'Inter';
+}
+.react-calendar__tile--active {
+	background-color: #a5def2;
+	color: black;
+}
+.react-calendar__navigation__label__labelText {
+	font-weight: 600;
+}
+
+.rbc-btn-group:first-child {
+	display: none !important;
+}
+
+.rbc-toolbar-label {
+	text-align: right !important ;
+	padding: 0px 20px !important;
+}
+
+.rbc-btn-group:last-child {
+	font-size: 13px !important;
+}
+.rbc-btn-group:last-child button {
+	border: none !important;
+	background-color: #f1f1ff !important;
+	margin-left: 2px !important;
+}
+
+.rbc-toolbar button.rbc-active {
+	background-color: #dbdafe !important;
+	box-shadow: none !important;
+}
+.rbc-time-header {
+	display: none !important;
+}
+
+.rbc-time-header {
+	border-color: #eee !important;
+}
+
+.rbc-time-content {
+	border: none !important;
+}
+
+.rbc-row .rbc-time-header-cell {
+	font-size: 12px !important;
+}
+
+.rbc-day-slot .rbc-time-column .rbc-now .rbc-today {
+	border: none !important;
+}
