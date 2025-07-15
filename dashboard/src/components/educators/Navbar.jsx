@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div>Edu Navbar</div>
+    <div className='flex justify-center items-center gap-5 pt-20'></div>
   )
 }
 

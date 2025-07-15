@@ -27,6 +27,7 @@ import ClassesList from './app/list/ClassesList';
 import RegisterationPage from './app/registeration/RegisterationPage';
 import StudentDashboard from './app/dashboard/students/StudentDashboard';
 import NavBar from './components/dashboard/NavBar';
+import Navbar from './components/educators/Navbar';
 
 function App() {
 	const isEducatorRoute = useMatch('/educator-dashboard/*');
@@ -39,7 +40,7 @@ function App() {
 			!isAdminRoute &&
 			!isParentRoute &&
 			!isStudentRoute ? (
-				<NavBar />
+				<Navbar />
 			) : (
 				''
 			)}
